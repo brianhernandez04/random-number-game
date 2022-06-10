@@ -15,7 +15,7 @@ button.addEventListener('click', function(){
     if (4 >= response2) {
         main.innerHTML = 
         `
-        <h1 style="color: white; text-align: center; padding: 35vh 18vw 0 18vw;">Highest number has to be higher than lowest number. Try again.</h1>
+        <h1 style="color: white; text-align: center; padding: 35vh 18vw 0 18vw;">Highest number has to be higher than lowest number and higher than 4. Try again.</h1>
         `
         ;
     } else if(bothResponse) {
